@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="uil uil-bars"></i>
+        </label>
+        <label class="logo">Jay</label>
+        <ul id="navi">
+            <li><a class="navitm" id="id1" href="#">Home</a></li>
+            <li><a class="navitm" id="id2" href="#about">About</a></li>
+            <li><a class="navitm" id="id3" href="#skills">Skills</a></li>
+            <li><a class="navitm" id="id4" href="#contact">Contact</a></li>
+            <li onclick="toggleMode()"><i class="uil uil-moon modeIcon"></i></li>
+        </ul>
+    </nav>
+
+    <!-- Home container is here  -->
+    <div class="icons">
+        <li><i class="uil uil-linkedin-alt"></i></li>
+        <li><i class="uil uil-github"></i></li>
+        <li><i class="uil uil-blogger-alt"></i></li>
+    </div>
+    <div class="main">
+        <section class="container">
+            <div class="text">
+                <h2>Hi, I'am Jay</h2>
+                <p class="skill">Fullstack Web Developer</p>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio labore neque
+                    molestias fugiat ipsa, eius voluptatem dicta dolorem quibusdam quam magni numquam sed. Possimus
+                    praesentium quasi officia consequatur repudiandae quidem alias reprehenderit </p>
+                <button class="btn">Contact Me <i class="uil uil-message sendIcon"></i></button>
+            </div>
+            <div class="image">
+                <img class="my" src="Layer 1.png" alt="Image">
+            </div>
+
+        </section>
+        <div style="margin-left: 20%; cursor: pointer;">
+            <a href="#about"><i class="uil uil-mouse-alt modeIcon"></i> Scroll down <i
+                    class="uil uil-arrow-down modeIcon"></i></a>
+        </div>
+    </div>
+
+
+    <!-- About container is here -->
+    <div class="about" style="margin-top:4.1rem;" id="about">
+        <div class="text2">
+            <h2 class="text">About Me</h2>
+            <p class="skill">My Introduction</p>
+        </div>
+        <div class="aboutBox">
+            <img class="secondImage" src="ld.jpg"
+                style="border-radius: 12px; box-shadow: 1px 1px 15px 1px rgb(61, 57, 57);" height="250px" alt="image">
+            <div class="a">
+                <p>Web Developer, with extensive knowledge and some experience, working in web technologies and
+                    frameworks
+                    like ReactJs, ExpressJs, delivering quality work</p>
+                <div class="b">
+                    <div class="info">
+                        <h3>02+</h3>
+                        <p>Years</p>
+                        <p>experience </p>
+                    </div>
+                    <div class="lineh"></div>
+                    <div class="info">
+                        <h3>04+</h3>
+                        <p>Project</p>
+                        <p>Completed </p>
+                    </div>
+                    <div class="lineh"></div>
+                    <div class="info">
+                        <h3>01+</h3>
+                        <p>Heckathon</p>
+                        <p>participated </p>
+                    </div>
+                    <div class="lineh"></div>
+                </div>
+                <a class="btn" href="Resume.pdf" download>Download CV <i class="uil uil-import"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Skills container is here -->
+    <div id="skills">
+        <div class="text2" style="padding-top: 3.6rem;">
+            <h2 style="font-size: 2.3rem; text-align: center;width: 100%; padding-top: 2rem;">Skills</h2>
+            <p class="skill">My Technical Level</p>
+        </div>
+        <div class="acco">
+            <div>
+                <button class="accordion" style="display: flex;">
+                    <i class="uil uil-brackets-curly"
+                        style="font-size: x-large; color: rgb(72, 8, 190); margin-right: 0.6rem; "></i>
+                    <div>
+                        <p style="font-size: 0,9rem; font-weight:700; color: rgb(48, 44, 44);">Frontend Developrer</p>
+                        <p style="font-size: 0.7rem;">More than two year</p>
+                    </div>
+                    <i class="uil uil-angle-down ulta ico" style="transform: rotate(0deg);" ;></i>
+                </button>
+                <div class="panel">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>HTML</p>
+                            <p>70%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 70%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>CSS</p>
+                            <p>60%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 60%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Java Script</p>
+                            <p>75%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 75%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>React</p>
+                            <p>40%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 40%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <button class="accordion" style="display: flex;">
+                    <i class="uil uil-server-connection"
+                        style="font-size: x-large; color: rgb(72, 8, 190); margin-right: 0.6rem;"></i>
+                    <div>
+                        <p style="font-size: 0,9rem; font-weight:700; color: rgb(48, 44, 44);">Backend Developrer</p>
+                        <p style="font-size: 0.7rem;">More than one year</p>
+                    </div>
+                    <i class="uil uil-angle-down ulta ico"></i>
+                </button>
+                <div class="panel">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Node Js</p>
+                            <p>70%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 70%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Express Js</p>
+                            <p>50%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 50%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Mongo DB</p>
+                            <p>50%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 50%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Django</p>
+                            <p>40%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 40%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="accordion" style="display: flex;">
+                    <i class="uil uil-palette"
+                        style="font-size: x-large; color: rgb(72, 8, 190); margin-right: 0.6rem;"></i>
+                    <div>
+                        <p style="font-size: 0,9rem; font-weight:700; color: rgb(48, 44, 44);">UI/UX Designer</p>
+                        <p style="font-size: 0.7rem;">More than 7 month</p>
+                    </div>
+                    <i class="uil uil-angle-down ulta ico"></i>
+                </button>
+                <div class="panel">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>HTML</p>
+                            <p>70%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 70%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>CSS</p>
+                            <p>60%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 60%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Java Script</p>
+                            <p>75%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 75%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>React</p>
+                            <p>40%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 40%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="accordion" style="display: flex;">
+                    <i class="uil uil-robot"
+                        style="font-size: x-large; color: rgb(72, 8, 190); margin-right: 0.6rem;"></i>
+                    <div>
+                        <p style="font-size: 0,9rem; font-weight:700; color: rgb(48, 44, 44);">Machine Learning / AI</p>
+                        <p style="font-size: 0.7rem;">Currently Learning</p>
+                    </div>
+                    <i class="uil uil-angle-down ulta ico"></i>
+                </button>
+                <div class="panel">
+                    <div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Algorithms</p>
+                            <p>50%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 50%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>SciKit Learn</p>
+                            <p>40%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 40%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>PyTorch</p>
+                            <p>20%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 20%;">
+                            </div>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+                            <p>Data Science</p>
+                            <p>50%</p>
+                        </div>
+                        <div style="background-color: grey; border-radius: 6px; height: 4px; width: 100%;">
+                            <div
+                                style="background-color: rgb(72, 8, 190); border-radius: 6px; height: 4px; width: 60%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========Contect me CSS======== -->
+    <div>
+        <div class="text2" id="contact">
+            <h2 class="text">Contact Me</h2>
+            <p class="skill">Get in touch</p>
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin: 3rem 0;">
+                <div style="margin-right: 3rem;">
+                    <div style="display: flex;">
+                        <i class="uil uil-phone" style="font-size: x-large; color: rgb(72, 8, 190); margin: 10px;"></i>
+                        <div>
+                            <h3>Call Me</h3>
+                            <span>90335 72810</span>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <i class="uil uil-envelope"
+                            style="font-size: x-large; color: rgb(72, 8, 190); margin: 10px;"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <span>jaybodar1108@gmail.com</span>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <i class="uil uil-location-pin-alt"
+                            style="font-size: x-large; color: rgb(72, 8, 190); margin: 10px;"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <span>Surat - Gujarat - 395003</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="">
+                    <div style="display: flex; margin-bottom:1rem;">
+                        <div class="contact" style="margin-right: 10px;">
+                            <label for="">Name</label>
+                            <input class="contactinput" type="text">
+                        </div>
+                        <div class="contact">
+                            <label for="">Email</label>
+                            <input class="contactinput" type="email">
+                        </div>
+                    </div>
+                    <div class="contact" style="margin-bottom:1rem;">
+                        <label for="">Project</label>
+                        <input class="contactinput" type="email">
+                    </div>
+                    <div class="contact" style="margin-bottom:1rem;">
+                        <label for="">Message</label>
+                        <textarea class="contactinput" name="" id="" cols="0" rows="7"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="btn">
+                            Send Message
+                            <i class="uil uil-message"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer style="background-color: rgb(72, 8, 190);">
+        <span style="margin: 0 30px; color: white;">
+            <center>@Copyright All right reserved</center>
+        </span>
+    </footer>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

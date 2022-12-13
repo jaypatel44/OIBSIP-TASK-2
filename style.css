@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.dark-mode{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(7, 0, 37);
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(153, 152, 152);
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(112, 112, 112);
+  }
+
+/*======================= Navbar CSS ==========================*/
+nav{
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    color: rgb(72, 8, 190);
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 6rem;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.navitm{
+    color: rgb(43, 42, 42);
+    font-weight: 500;
+    font-size: 17px;
+}
+.xyz{
+    color: rgb(241, 240, 240);
+    font-weight: 500;
+    font-size: 17px;
+}
+a:hover{
+    color: rgb(72, 8, 190);
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+/* =========     Social Media Icons CSS   ===========*/
+.icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    align-items: center;
+    color: rgb(72, 8, 190);
+    font-size: larger;
+    cursor: pointer;
+}
+.icons li{
+    margin-bottom: 8px;
+}
+
+/*================== Main Home container CSS ======================*/
+.container{
+    display: flex;
+    margin:4rem 8rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+}
+.text h2{
+    font-size: 2.6rem;
+}
+.text .skill{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin:1.2rem 0;
+    color: #343e47;
+
+}
+.text .description{
+    font-weight:200;
+    color: gray;
+}
+.btn a{
+    color: white;
+}
+.btn{
+    margin: 1.2rem 0;
+    font-size: 0.9rem;
+    padding: 10px 10px;
+    color:aliceblue;
+    background-color:rgb(72, 8, 190) ;
+    border: 0px solid white;
+    border-radius: 8px;
+    width: 9rem;
+    height: 2.8rem;
+    cursor: pointer;
+    border: 2px solid rgb(72, 8, 190);
+}
+.btn:hover{
+    color:rgb(72, 8, 190);
+    background-color: aliceblue;
+}
+.my{
+    height: 350px;
+}
+.image{
+    margin-top: 20px;
+    width: 16rem;
+    background: linear-gradient(rgb(72, 8, 190),transparent);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+}
+.sendIcon{
+    font-size: 1rem;
+}
+.modeIcon{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+/*============ About css =================*/
+.text2 .text{
+    padding-top: 4rem;
+    font-size: 2.3rem;
+    text-align: center;
+    width: 100%;
+}
+.text2 .skill{
+    text-align: center;
+    font-weight: 400;
+    width: 100%; 
+    color: #2c3e50;
+}
+.aboutBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 7rem 12rem;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+    margin-left: 10rem;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 1.6rem;
+}
+.lineh{
+    height: 100px;
+    width: 2px;
+    background-color: #343e47;
+}
+
+
+/*======================== Skills CSS ===================== */
+.accordion {
+    background-color: white;
+    border-radius: 10px;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 300px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    width: 300px;
+}
+.acco{
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; margin: 4rem 8rem 20rem 8rem
+}
+.ico{
+    font-size: x-large; color: rgb(72, 8, 190); margin-left:auto;
+}
+
+
+/*====================== Contect Me CSS================== */
+.contact{
+    row-gap: 3rem;
+    background-color: rgb(172, 139, 235);
+    border-radius: .5rem;
+    padding: .75rem 1rem .75rem;
+}
+.contactinput{
+    width: 100%;
+    background-color: rgb(172, 139, 235);
+    color:#2c3e50;
+    border: none;
+    outline: none;
+    padding: .25rem .5rem .5rem 0;
+    font-size: medium;
+}
+
+
+@media (max-width: 992px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .container{
+        /* margin:0 25px; */
+        margin: 0.2rem 4rem;
+    }
+    .a{
+        margin-left: 5rem;
+    }
+    .acco{
+        margin: 4rem 6rem 20rem 6rem;
+    }
+}
+@media (max-width: 792px){
+    .acco{
+        margin: 4rem 1rem 15rem 1rem;
+    }
+}
+
+@media (max-width: 669px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .aboutBox{
+        flex-wrap: wrap;
+        margin: 1rem 6rem;
+    }
+    .image{
+        padding-bottom: 2rem;
+    }
+    .my{
+        height: 300px;
+    }
+    .text{
+        width:auto;
+    }
+    .text h2 ,.skill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text h2{
+        font-size: 30px;
+    }
+    .skill{
+        font-size: 15px;
+    }
+    .a{
+        margin-top: 1.8rem;
+        margin-left: 2rem;
+    }
+}
+@media (max-width: 631px){
+    .acco{
+        margin: 2rem 1rem 10rem 1rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px){
+    .checkbtn{
+        display: block;
+        color: rgb(49, 41, 41);
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        text-align: center;
+        transition: all .5s;
+        left: -200%;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
